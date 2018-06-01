@@ -1,0 +1,1 @@
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  -g -Wl,-search_paths_first -Wl,-headerpad_max_install_names  CMakeFiles/ex03.dir/main.cpp.o CMakeFiles/ex03.dir/AMateria.cpp.o CMakeFiles/ex03.dir/Ice.cpp.o  -o ex03 
