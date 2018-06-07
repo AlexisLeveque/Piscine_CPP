@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/aleveque/CLionProjects/piscine/day08/ex00/easyfind.hpp
+algorithm
+-
+
+/Users/aleveque/CLionProjects/piscine/day08/ex00/main.cpp
+vector
+-
+iostream
+-
+algorithm
+-
+easyfind.hpp
+/Users/aleveque/CLionProjects/piscine/day08/ex00/easyfind.hpp
+
