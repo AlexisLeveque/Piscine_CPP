@@ -4,10 +4,10 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/Users/aleveque/CLionProjects/piscine/day08/ex01/Span.cpp" "/Users/aleveque/CLionProjects/piscine/day08/ex01/cmake-build-debug/CMakeFiles/ex01.dir/Span.cpp.o"
-  "/Users/aleveque/CLionProjects/piscine/day08/ex01/main.cpp" "/Users/aleveque/CLionProjects/piscine/day08/ex01/cmake-build-debug/CMakeFiles/ex01.dir/main.cpp.o"
+  "E:/Piscine/Piscine_CPP/day08/ex01/Span.cpp" "E:/Piscine/Piscine_CPP/day08/ex01/cmake-build-debug/CMakeFiles/ex01.dir/Span.cpp.obj"
+  "E:/Piscine/Piscine_CPP/day08/ex01/main.cpp" "E:/Piscine/Piscine_CPP/day08/ex01/cmake-build-debug/CMakeFiles/ex01.dir/main.cpp.obj"
   )
-set(CMAKE_CXX_COMPILER_ID "AppleClang")
+set(CMAKE_CXX_COMPILER_ID "GNU")
 
 # The include file search paths:
 set(CMAKE_CXX_TARGET_INCLUDE_PATH

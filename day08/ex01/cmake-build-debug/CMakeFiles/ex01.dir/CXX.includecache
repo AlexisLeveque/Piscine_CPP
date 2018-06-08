@@ -1,0 +1,28 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+E:/Piscine/Piscine_CPP/day08/ex01/Span.cpp
+Span.hpp
+E:/Piscine/Piscine_CPP/day08/ex01/Span.hpp
+algorithm
+-
+utility
+-
+
+E:/Piscine/Piscine_CPP/day08/ex01/Span.hpp
+iostream
+-
+vector
+-
+
+E:/Piscine/Piscine_CPP/day08/ex01/main.cpp
+iostream
+-
+Span.hpp
+E:/Piscine/Piscine_CPP/day08/ex01/Span.hpp
+

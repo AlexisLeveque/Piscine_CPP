@@ -35,6 +35,9 @@ public:
 
 	void	addNumber(int nbr);
 
+	template<typename T>
+	void	addNumber(T range);
+
 	int	shortestSpan(void);
 
 	int	longestSpan(void);

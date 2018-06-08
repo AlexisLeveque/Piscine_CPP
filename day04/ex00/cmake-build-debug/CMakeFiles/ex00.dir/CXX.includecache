@@ -1,0 +1,46 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+E:/Piscine/Piscine_CPP/day04/ex00/Peon.cpp
+Peon.hpp
+E:/Piscine/Piscine_CPP/day04/ex00/Peon.hpp
+
+E:/Piscine/Piscine_CPP/day04/ex00/Peon.hpp
+iostream
+-
+Victim.hpp
+E:/Piscine/Piscine_CPP/day04/ex00/Victim.hpp
+
+E:/Piscine/Piscine_CPP/day04/ex00/Sorcerer.cpp
+Sorcerer.hpp
+E:/Piscine/Piscine_CPP/day04/ex00/Sorcerer.hpp
+
+E:/Piscine/Piscine_CPP/day04/ex00/Sorcerer.hpp
+iostream
+-
+Victim.hpp
+E:/Piscine/Piscine_CPP/day04/ex00/Victim.hpp
+
+E:/Piscine/Piscine_CPP/day04/ex00/Victim.cpp
+Victim.hpp
+E:/Piscine/Piscine_CPP/day04/ex00/Victim.hpp
+
+E:/Piscine/Piscine_CPP/day04/ex00/Victim.hpp
+iostream
+-
+
+E:/Piscine/Piscine_CPP/day04/ex00/main.cpp
+iostream
+-
+Sorcerer.hpp
+E:/Piscine/Piscine_CPP/day04/ex00/Sorcerer.hpp
+Victim.hpp
+E:/Piscine/Piscine_CPP/day04/ex00/Victim.hpp
+Peon.hpp
+E:/Piscine/Piscine_CPP/day04/ex00/Peon.hpp
+

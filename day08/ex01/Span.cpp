@@ -37,19 +37,27 @@ int Span::longestSpan() {
 	}
 }
 
-int return_diff(int a, int b) {
-	return a-b;
-}
-
 int Span::shortestSpan() {
 	if (_vector.size() > 1) {
 		sort(_vector.begin(), _vector.end());
+		std::vector<int>::iterator i =_vector.begin();
 		int res = _vector[0] - _vector[1];
-		if (for_each(_vector.begin(), _vector.end(), return_diff)) {
-			
+		while (i+1 != _vector.end()) {
+			if (*i - *(i+1) < res) {
+				res = *i - *(i+1);
+			}
+			i++;
 		}
+		return res;
 	}
 	else {
 		throw NoSpanException();
+	}
+}
+
+template<typename T>
+void	addNumber(T range) {
+	for (T::iterator i = range.begin(); i < range.end(); ++i) {
+		addNumber(i);
 	}
 }
